@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="card_login">#5DA85D</color>
+    <color name="card_registro">#CC30A630</color>
+    <color name="btn_registro">#2E7D32</color>
+    <color name="hint_color">#AAFFFFFF</color>
+    <color name="dashboard_bg">#F0F7F0</color>
+    <color name="card_perfil">#A8D5A2</color>
+    <color name="card_menu">#C8E6C4</color>
+    <color name="card_item">#E8F5E5</color>
+    <color name="texto_titulo">#1A3A1A</color>
+    <color name="texto_secundario">#3A5E3A</color>
+    <color name="texto_acento">#2E5E2E</color>
+    <color name="flecha">#2E7D32</color>
+    <color name="btn_cerrar_sesion">#C62828</color>
+    <color name="registro_bg">#F0F7F0</color>
+    <color name="card_registro_residuo">#A8D5A2</color>
+    <color name="btn_guardar">#2E7D32</color>
+    <color name="spinner_bg">#E8F5E5</color>
+    <color name="lista_bg">#F0F7F0</color>
+    <color name="card_item_lista">#A8D5A2</color>
+    <color name="tag_organico">#4CAF50</color>
+    <color name="tag_plastico">#2196F3</color>
+    <color name="tag_vidrio">#00BCD4</color>
+    <color name="tag_metal">#9E9E9E</color>
+    <color name="tag_papel">#FF9800</color>
+    <color name="tag_peligroso">#F44336</color>
+    <color name="reporte_bg">#F0F7F0</color>
+    <color name="card_reporte_filtro">#A8D5A2</color>
+    <color name="card_total">#2E7D32</color>
+</resources>

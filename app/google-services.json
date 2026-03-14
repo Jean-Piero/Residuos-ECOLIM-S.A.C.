@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "771798385580",
+    "firebase_url": "https://residuos-66e42-default-rtdb.firebaseio.com",
+    "project_id": "residuos-66e42",
+    "storage_bucket": "residuos-66e42.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771798385580:android:cae6776db7baffc3593009",
+        "android_client_info": {
+          "package_name": "com.zerodevelop.residuos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGvqD2G-OgNqvB2Px0je0z-DtcuOoE_Pc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

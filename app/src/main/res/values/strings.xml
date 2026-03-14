@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Residuos</string>
+    <!-- Precarga-->
+    <string name="lbl_bienvenido">Bienvenido a</string>
+    <string name="empresa">ECOLIM S.A.C</string>
+    <string name="version">1.0.0</string>
+    <!-- Login Main-->
+    <string name="Titulo_Login">Ingresar Sesión</string>
+    <string name="lbl_correo">Correo</string>
+    <string name="txt_correo">Ingrese Correo</string>
+    <string name="lbl_password">Contraseña</string>
+    <string name="txt_password">Ingrese contraseña</string>
+    <string name="btn_ingresar">Ingresar 🔒</string>
+    <string name="lbl_crear_cuenta">No tienes una cuenta?, Registrate</string>
+    <!-- Registro -->
+    <string name="lbl_registro">Crear Cuenta</string>
+    <string name="lbl_nombre">Nombre completo</string>
+    <string name="txt_nombre">Ingrese su nombre</string>
+    <string name="lbl_telefono">Teléfono</string>
+    <string name="txt_telefono">Ingrese su teléfono</string>
+    <string name="lbl_rol">Rol</string>
+    <string name="lbl_confirmar_password">Confirmar contraseña</string>
+    <string name="txt_confirmar_password">Repita su contraseña</string>
+    <string name="btn_registrar">Registrarse</string>
+    <string name="lbl_ya_cuenta">¿Ya tienes cuenta? Inicia sesión</string>
+    <!-- DashBoard-->
+    <string name="lbl_bienvenido_a">Bienvenido,</string>
+    <string name="lbl_menu_principal">Menú principal</string>
+    <string name="lbl_lista_registro">Lista de Registros</string>
+    <string name="lbl_registro_residuos">Registro de Residuos</string>
+    <string name="lbl_reporte">Reporte</string>
+    <string name="lbl_flecha">›</string>
+    <string name="lbl_nombre_placeholder">Nombre</string>
+    <string name="lbl_correo_placeholder">correo@email.com</string>
+    <string name="lbl_telefono_placeholder">Teléfono</string>
+    <string name="btn_cerrar_sesion">Cerrar Sesión</string>
+    <!-- Registro Residuos-->
+    <string name="lbl_registro_residuos_titulo">Registro de Residuos</string>
+    <string name="lbl_tipo_residuo">Tipo de Residuo</string>
+    <string name="lbl_cantidad">Cantidad</string>
+    <string name="txt_cantidad">Ingrese la cantidad</string>
+    <string name="lbl_unidad">Unidad</string>
+    <string name="lbl_fecha">Fecha de Registro</string>
+    <string name="btn_guardar">Guardar Registro</string>
+    <string name="lbl_organico">Orgánico</string>
+    <string name="lbl_plastico">Plástico</string>
+    <string name="lbl_vidrio">Vidrio</string>
+    <string name="lbl_metal">Metal</string>
+    <string name="lbl_papel">Papel</string>
+    <string name="lbl_peligroso">Peligroso</string>
+    <string name="btn_regresar">Regresar</string>
+    <!-- Lista Registro -->
+    <string name="lbl_lista_registro_titulo">Lista de Registros</string>
+    <string name="lbl_sin_registros">No hay registros aún</string>
+    <string name="lbl_tipo">Tipo: </string>
+    <string name="lbl_cantidad_item">Cantidad: </string>
+    <string name="lbl_fecha_item">Fecha: </string>
+    <string name="lbl_usuario_item">Registrado por: </string>
+    <!-- Reporte -->
+    <string name="lbl_reporte_titulo">Reporte de Residuos</string>
+    <string name="lbl_filtrar_tipo">Filtrar por Tipo</string>
+    <string name="btn_generar">Generar Reporte</string>
+    <string name="lbl_total_registros">Total registros: </string>
+    <string name="lbl_todos">Todos</string>
+    <string name="lbl_sin_resultados">Sin resultados para este filtro</string>
+    <string name="lbl_total_litros">Total litros:</string>
+    <string name="lbl_total_unidades">Total unidades:</string>
+    <string name="lbl_total_kg">Total kg:</string>
+    <string name="lbl_responsable">Responsable: </string>
+    <string name="lbl_rol_reporte">Rol: </string>
+</resources>

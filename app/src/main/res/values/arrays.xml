@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipos_residuo">
+        <item>Orgánico</item>
+        <item>Plástico</item>
+        <item>Vidrio</item>
+        <item>Metal</item>
+        <item>Papel</item>
+        <item>Peligroso</item>
+    </string-array>
+
+    <string-array name="unidades">
+        <item>kg</item>
+        <item>litros</item>
+        <item>unidades</item>
+    </string-array>
+
+    <string-array name="tipos_residuo_filtro">
+        <item>Todos</item>
+        <item>Orgánico</item>
+        <item>Plástico</item>
+        <item>Vidrio</item>
+        <item>Metal</item>
+        <item>Papel</item>
+        <item>Peligroso</item>
+    </string-array>
+</resources>
