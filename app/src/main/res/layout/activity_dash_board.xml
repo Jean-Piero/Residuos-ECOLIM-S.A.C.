@@ -15,14 +15,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="20dp">
-
-            <!-- Card Perfil -->
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -30,27 +27,23 @@
                 app:cardCornerRadius="16dp"
                 app:cardElevation="4dp"
                 app:cardBackgroundColor="@color/card_perfil">
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:padding="20dp"
                     android:gravity="center_vertical">
-
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:orientation="vertical">
-
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/lbl_bienvenido_a"
                             android:textColor="@color/texto_acento"
                             android:textSize="14sp" />
-
                         <TextView
                             android:id="@+id/txtNombreUsuario"
                             android:layout_width="wrap_content"
@@ -59,7 +52,6 @@
                             android:textColor="@color/texto_titulo"
                             android:textSize="22sp"
                             android:textStyle="bold" />
-
                         <TextView
                             android:id="@+id/txtCorreoUsuario"
                             android:layout_width="wrap_content"
@@ -68,7 +60,6 @@
                             android:textColor="@color/texto_secundario"
                             android:textSize="13sp"
                             android:layout_marginTop="2dp" />
-
                         <TextView
                             android:id="@+id/txtTelefonoUsuario"
                             android:layout_width="wrap_content"
@@ -77,33 +68,26 @@
                             android:textColor="@color/texto_secundario"
                             android:textSize="13sp"
                             android:layout_marginTop="2dp" />
-
                     </LinearLayout>
-
                     <ImageView
                         android:id="@+id/imgFotoPerfil"
                         android:layout_width="90dp"
                         android:layout_height="90dp"
                         android:scaleType="centerCrop"
                         app:srcCompat="@drawable/usuario" />
-
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
-
-            <!-- Card Menú -->
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="16dp"
                 app:cardElevation="4dp"
                 app:cardBackgroundColor="@color/card_menu">
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:padding="20dp">
-
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -112,8 +96,6 @@
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:layout_marginBottom="16dp" />
-
-                    <!-- Lista de Registros -->
                     <androidx.cardview.widget.CardView
                         android:id="@+id/cardListaRegistro"
                         android:layout_width="match_parent"
@@ -122,21 +104,18 @@
                         app:cardCornerRadius="12dp"
                         app:cardElevation="2dp"
                         app:cardBackgroundColor="@color/card_item">
-
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
                             android:padding="16dp"
                             android:gravity="center_vertical">
-
                             <ImageView
                                 android:layout_width="28dp"
                                 android:layout_height="28dp"
                                 android:layout_marginEnd="12dp"
                                 app:srcCompat="@drawable/ic_list"
                                 app:tint="@color/flecha" />
-
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
@@ -145,7 +124,6 @@
                                 android:textColor="@color/texto_titulo"
                                 android:textSize="16sp"
                                 android:textStyle="bold" />
-
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -153,11 +131,8 @@
                                 android:textColor="@color/flecha"
                                 android:textSize="24sp"
                                 android:textStyle="bold" />
-
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
-
-                    <!-- Registro de Residuos -->
                     <androidx.cardview.widget.CardView
                         android:id="@+id/cardRegistroResiduos"
                         android:layout_width="match_parent"
@@ -166,21 +141,18 @@
                         app:cardCornerRadius="12dp"
                         app:cardElevation="2dp"
                         app:cardBackgroundColor="@color/card_item">
-
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
                             android:padding="16dp"
                             android:gravity="center_vertical">
-
                             <ImageView
                                 android:layout_width="28dp"
                                 android:layout_height="28dp"
                                 android:layout_marginEnd="12dp"
                                 app:srcCompat="@drawable/ic_delete"
                                 app:tint="@color/flecha" />
-
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
@@ -189,7 +161,6 @@
                                 android:textColor="@color/texto_titulo"
                                 android:textSize="16sp"
                                 android:textStyle="bold" />
-
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -197,11 +168,8 @@
                                 android:textColor="@color/flecha"
                                 android:textSize="24sp"
                                 android:textStyle="bold" />
-
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
-
-                    <!-- Reporte -->
                     <androidx.cardview.widget.CardView
                         android:id="@+id/cardReporte"
                         android:layout_width="match_parent"
@@ -209,21 +177,18 @@
                         app:cardCornerRadius="12dp"
                         app:cardElevation="2dp"
                         app:cardBackgroundColor="@color/card_item">
-
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
                             android:padding="16dp"
                             android:gravity="center_vertical">
-
                             <ImageView
                                 android:layout_width="28dp"
                                 android:layout_height="28dp"
                                 android:layout_marginEnd="12dp"
                                 app:srcCompat="@drawable/ic_reporte"
                                 app:tint="@color/flecha" />
-
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
@@ -232,7 +197,6 @@
                                 android:textColor="@color/texto_titulo"
                                 android:textSize="16sp"
                                 android:textStyle="bold" />
-
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -240,14 +204,10 @@
                                 android:textColor="@color/flecha"
                                 android:textSize="24sp"
                                 android:textStyle="bold" />
-
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
-
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
-
-            <!-- Botón Cerrar Sesión -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/btnCerrarSesion"
                 android:layout_width="match_parent"
@@ -256,21 +216,18 @@
                 app:cardCornerRadius="12dp"
                 app:cardElevation="4dp"
                 app:cardBackgroundColor="@color/btn_cerrar_sesion">
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:padding="16dp"
                     android:gravity="center">
-
                     <ImageView
                         android:layout_width="24dp"
                         android:layout_height="24dp"
                         android:layout_marginEnd="10dp"
                         app:srcCompat="@drawable/ic_logout"
                         app:tint="@color/white" />
-
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -278,11 +235,8 @@
                         android:textColor="@color/white"
                         android:textSize="16sp"
                         android:textStyle="bold" />
-
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
-
         </LinearLayout>
     </ScrollView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
